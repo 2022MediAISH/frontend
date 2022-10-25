@@ -48,7 +48,9 @@ export function getInfo(infoDict) {
   for (var i = 0; i < info_list.length; i++) {
     ArmGroupType.push(info_list[i]["ArmGroupType"]);
     ArmGroupLabel.push(info_list[i]["ArmGroupLabel"]);
+
     InterventionDescription.push(info_list[i]["InterventionDescription"]);
+
   }
 
   const armGroup = new data.ArmGroup(
