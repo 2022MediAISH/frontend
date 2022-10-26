@@ -45,7 +45,7 @@ function App() {
   const [visible, setVisible] = useState(false);
   const [text, setText] = useState();
   const [loading, setLoading] = useState(false);
-  const [clicked, setClicked] = useState(false);
+  const [clicked, setClicked] = useState([]);
   const [isOriginal, setIsOriginal] = useState(false);
   const [isBranchButton, setisBranchButton] = useState(false);
   // these below are for resizable div contents.

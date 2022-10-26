@@ -70,7 +70,10 @@ export function writeIntervention(
       xanchor: "left",
       yanchor: "bottom",
       align: "left",
-      text: onlyDrug,
+      text:
+        "<a href='#armgroup' target='_self' style='color:black;'>" +
+        onlyDrug +
+        "</a>",
       name: {
         type: "armGroup",
         inJson: "DrugName",
@@ -145,7 +148,10 @@ export function writeIntervention(
         xanchor: "left",
         yanchor: "bottom",
         align: "left",
-        text: onlyDrug,
+        text:
+          "<a href='#armgroup' target='_self' style='color:black;'>" +
+          onlyDrug +
+          "</a>",
         name: {
           type: "armGroup",
           inJson: "DrugName",
@@ -297,7 +303,10 @@ export function writeIntervention(
         xanchor: "left",
         yanchor: "bottom",
         align: "left",
-        text: onlyDrug,
+        text:
+          "<a href='#armgroup' target='_self' style='color:black;'>" +
+          onlyDrug +
+          "</a>",
         name: {
           type: "armGroup",
           inJson: "DrugName",
